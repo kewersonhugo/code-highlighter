@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.container > pre {
+  background-color: transparent;
+  background-image: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+pre, textarea {
+  width: 50%;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
